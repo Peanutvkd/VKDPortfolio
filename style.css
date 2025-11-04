@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url("Images/Background.png");
+  background-image: url('Images/Background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -194,7 +194,7 @@ body {
 .projects-page {
   overflow: auto !important;
   height: auto !important;
-  background-image: url("Images/Background_Projects.png");
+  background-image: url('Images/Background_Projects.png');
 }
 
 .projects-page .projects {
@@ -333,7 +333,7 @@ body {
 /*About Me*/
 
 body.about-page {
-  background-image: url("Images/Background_Projects.png");
+  background-image: url('Images/Background_Projects.png');
   overflow-y: auto !important;
   overflow-x: hidden !important;
   height: auto !important;
@@ -426,7 +426,7 @@ body.about-page {
 
 /* PAGE BASE */
 body.resources-page {
-  background-image: url("Images/Background_Projects.png");
+  background-image: url('Images/Background_Projects.png');
   background-size: cover;
   background-attachment: fixed;
   overflow-y: auto;
@@ -530,7 +530,7 @@ body.resources-page {
 
 /* Background */
 body.stem-library-page {
-  background-image: url("Images/Background_Projects.png");
+  background-image: url('Images/Background_Projects.png');
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -601,7 +601,7 @@ body.stem-library-page {
 
 /* SCROLL ENABLED ALWAYS */
 body.stem-library-page {
-  background-image: url("Images/Background_Projects.png");
+  background-image: url('Images/Background_Projects.png');
   overflow-y: auto !important;
   overflow-x: hidden !important;
   position: relative;
@@ -641,3 +641,4 @@ body.stem-library-page {
   0% { transform: translateY(110vh); }
   100% { transform: translateY(-120vh); }
 }
+
