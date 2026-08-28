@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   min-height: 100vh;
   overflow: hidden;
   position: relative;
@@ -23,11 +23,6 @@ body {
 @media screen and (max-width: 600px) {
   body {
     background-image: url("Images/Phone.png");
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    min-height: 100vh;
   }
 }
 
