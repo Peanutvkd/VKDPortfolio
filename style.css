@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,26 +8,20 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
-}
-
-/* FIXED BACKGROUND LAYER (works on iPhone) */
-body::before {
-  content: "";
-  inset: 0;
   background-image: url('Images/Background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -999; /* sits behind everything */
-  pointer-events: none;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 
-/* Mobile background swap */
+
+/* Background swap for phones */
 @media (max-width: 600px) {
-  body::before {
+  body {
     background-image: url("Images/Phone.png");
   }
 }
